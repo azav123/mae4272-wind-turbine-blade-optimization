@@ -97,14 +97,7 @@ Post-optimization processing includes:
 
 ## Results
 
-Two sets of results are included:
 
-- **outputs/viterna_corrigan/** → improved version (post-submission)
-  - Penalty terms now weighted by Weibull probability density → realistic behavior at design wind speed (~4.5 m/s)
-  - Higher torque/power expected at mean operating condition
-
-- **outputs/submission_results/** → original results submitted for grading (October 2025)
-  - See README.md in that folder for explanation of known limitation
 
 **Improved Results** (outputs/viterna_corrigan/):
 - `optimal_blade_design.png` - Design visualization
@@ -116,6 +109,14 @@ Two sets of results are included:
 - Original submission results from October 2025
 - May contain penalty weighting bugs
 - See included README.md for details
+
+## Sample Output Plots (from original submission)
+
+![Torque vs RPM (900-2000)](docs/images/torque_vs_rpm_900_2000.png)
+*Torque vs RPM curve for lower operating range*
+
+![Torque vs RPM (900-3000)](docs/images/torque_vs_rpm_900_3000.png)
+*Torque vs RPM curve for full operating range*
 
 ## Post-Submission Updates
 
