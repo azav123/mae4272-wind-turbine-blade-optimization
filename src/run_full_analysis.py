@@ -101,7 +101,7 @@ def main():
     print("\nThis will run the optimization using Viterna-Corrigan method:")
     print("  1. Viterna-Corrigan optimization")
     print("  2. Enhanced analysis (smoothing, RPM analysis, etc.)")
-    print("\nNote: This may take 1-2 hours depending on your system.")
+    print("\nNote: This may take 5-10 hours depending on your system.")
     
     response = input("\nProceed? (y/n): ")
     if response.lower() != 'y':
