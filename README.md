@@ -36,8 +36,8 @@ Run the scripts to generate outputs in `outputs/viterna_corrigan/`.
 
 **Sample plots from original submission:**
 
-![Torque vs RPM (900–2000)](docs/images/torque_vs_rpm_900_2000.png)
-*Torque vs RPM — lower operating range*
+![Power vs RPM (900–3000)](docs/images/power_vs_rpm_900_3000.png)
+*Power vs RPM — full range*
 
 ![Torque vs RPM (900–3000)](docs/images/torque_vs_rpm_900_3000.png)
 *Torque vs RPM — full range*
